@@ -8,7 +8,7 @@ spec:
   sourceRepos:
     - '*'
   destinations:
-    - namespace: '*'
+    - namespace: 'blog'
       server: 'https://kubernetes.default.svc'
   clusterResourceWhitelist:
     - group: '*'
